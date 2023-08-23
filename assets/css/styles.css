@@ -35,7 +35,7 @@ a {
 /* HEADER */
 
 .main-header {
-  background: url("./assets/img/header/headerfoto.png") no-repeat center;
+  background: url("../img/header/headerfoto.png") no-repeat center;
   background-size: cover;
   height: 51rem;
   color: white;
@@ -200,7 +200,7 @@ a {
 
 .services {
   height: 34rem;
-  background: url("./assets/img/ourservices/yellowchair.png") no-repeat center;
+  background: url("../img/ourservices/yellowchair.png") no-repeat center;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -297,7 +297,7 @@ a {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; 
+  line-height: 20px;
 }
 
 .blue-chair {
@@ -328,7 +328,7 @@ a {
 
 .paralax-quote {
   height: 34rem;
-  background: url("./assets/img/quoteparalax/quote.png") no-repeat center;
+  background: url("../img/quoteparalax/quote.png") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   display: flex;
@@ -438,8 +438,7 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: url("./assets/img/contact/contact_schlafzimmer.png") no-repeat
-    center;
+  background: url("../img/contact/contact_schlafzimmer.png") no-repeat center;
   background-size: cover;
 }
 

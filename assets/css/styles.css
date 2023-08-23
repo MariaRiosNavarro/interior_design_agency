@@ -181,6 +181,7 @@ a {
 }
 
 .heading-container-services h2 {
+  color: #fff;
   font-family: Alegra-Sans, Arial, Helvetica, sans-serif;
   font-size: 2.25rem;
   font-style: normal;
@@ -189,6 +190,7 @@ a {
 }
 
 .heading-container-services h3 {
+  color: #fff;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 0.8rem;
   font-style: normal;
@@ -408,9 +410,6 @@ a {
   align-items: center;
 }
 
-.testimonials-container {
-}
-
 .testimonials-card {
   display: flex;
   justify-content: center;
@@ -429,4 +428,20 @@ a {
 .testimonials-card p:first-of-type {
   padding-top: 1rem;
   padding-bottom: 1.5rem;
+}
+
+/* contact */
+
+.contact {
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: url("/assets/img/contact/contact_schlafzimmer.png") no-repeat
+    center;
+  background-size: cover;
+}
+
+.contact-article {
 }

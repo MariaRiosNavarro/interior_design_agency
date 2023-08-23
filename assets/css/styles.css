@@ -1,16 +1,16 @@
 @font-face {
   font-family: Alegra;
-  src: url("/assets/fonts/Alegreya_SC/AlegreyaSC-Regular.ttf");
+  src: url("./assets/fonts/Alegreya_SC/AlegreyaSC-Regular.ttf");
 }
 
 @font-face {
   font-family: Nixie;
-  src: url("/assets/fonts/Nixie_One/NixieOne-Regular.ttf");
+  src: url("./assets/fonts/Nixie_One/NixieOne-Regular.ttf");
 }
 
 @font-face {
   font-family: Alegra-Sans;
-  src: url("/assets/fonts/Alegreya_Sans/AlegreyaSans-Regular.ttf");
+  src: url("./assets/fonts/Alegreya_Sans/AlegreyaSans-Regular.ttf");
 }
 
 *,
@@ -35,7 +35,7 @@ a {
 /* HEADER */
 
 .main-header {
-  background: url("/assets/img/header/headerfoto.png") no-repeat center;
+  background: url("./assets/img/header/headerfoto.png") no-repeat center;
   background-size: cover;
   height: 51rem;
   color: white;
@@ -200,7 +200,7 @@ a {
 
 .services {
   height: 34rem;
-  background: url("/assets/img/ourservices/yellowchair.png") no-repeat center;
+  background: url("./assets/img/ourservices/yellowchair.png") no-repeat center;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -297,7 +297,7 @@ a {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px; 
 }
 
 .blue-chair {
@@ -328,7 +328,7 @@ a {
 
 .paralax-quote {
   height: 34rem;
-  background: url("/assets/img/quoteparalax/quote.png") no-repeat center;
+  background: url("./assets/img/quoteparalax/quote.png") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   display: flex;
@@ -438,7 +438,7 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: url("/assets/img/contact/contact_schlafzimmer.png") no-repeat
+  background: url("./assets/img/contact/contact_schlafzimmer.png") no-repeat
     center;
   background-size: cover;
 }

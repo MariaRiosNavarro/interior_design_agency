@@ -366,3 +366,67 @@ a {
   margin-top: 3rem;
   border: 1px solid white;
 }
+
+/* testimonials */
+
+.testimonials {
+  height: 38rem;
+  padding: 3.75rem 8.4rem;
+}
+
+.heading-container-services h2 {
+  color: #3a4f52;
+  text-align: center;
+  font-family: Alegreya Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 39.6px; /* 110% */
+}
+
+.heading-container-services h3 {
+  color: #6a6a6a;
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+
+.person {
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.testimonials-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials-container {
+}
+
+.testimonials-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5rem;
+  color: #6a6a6a;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.testimonials-card p:first-of-type {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}

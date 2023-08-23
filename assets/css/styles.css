@@ -379,7 +379,7 @@ a {
 .heading-container-services h2 {
   color: #3a4f52;
   text-align: center;
-  font-family: Alegreya Sans;
+  font-family: Alegra-Sans, Arial, sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 500;
@@ -389,7 +389,7 @@ a {
 .heading-container-services h3 {
   color: #6a6a6a;
   text-align: center;
-  font-family: Helvetica Neue;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -443,5 +443,91 @@ a {
   background-size: cover;
 }
 
+.headling-contact {
+  padding-top: 1.25rem;
+  padding-bottom: 3.75rem;
+}
+
+.headling-contact h2,
+.headling-contact h3 {
+  color: white;
+  text-align: center;
+}
+
+.headling-contact h2 {
+  font-family: Alegra-Sans, Arial, sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 39.6px;
+}
+
+.headling-contact h3 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
 .contact-article {
+  margin: 4rem 8.4rem;
+  width: 69rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-article form {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 34.5rem;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  background-color: transparent;
+  width: 100%;
+  border: 1px solid white;
+}
+
+input::placeholder,
+textarea::placeholder,
+form button {
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+form button {
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 0.5rem 0.75rem;
+  width: 5.5rem;
+}
+
+/* footer */
+
+footer {
+  height: 8.75rem;
+  background-color: #2b3e51;
+  display: flex;
+  align-items: center;
+}
+
+footer p {
+  color: #fff;
+  font-family: Helvetica, Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  padding-left: 9.5rem;
 }

@@ -1,7 +1,94 @@
+@font-face {
+  font-family: Alegra;
+  src: url("/assets/fonts/Alegreya_SC/AlegreyaSC-Regular.ttf");
+}
+
+@font-face {
+  font-family: Nixie;
+  src: url("/assets/fonts/Nixie_One/NixieOne-Regular.ttf");
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none !important;
+}
+
+/* HEADER */
+
+.main-header {
+  background: url("/assets/img/header/headerfoto.png") no-repeat center;
+  background-size: cover;
+  height: 51rem;
+  color: white;
+}
+
+.hamburger-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburger-line {
+  height: 0.2rem;
+  width: 1.5rem;
+  background-color: rgb(254, 254, 254);
+  margin: 2px;
+  border-radius: 10px;
+}
+
+.nav-article {
+  display: flex;
+  justify-content: space-between;
+  height: 6rem;
+  padding: 1.5rem;
+}
+
+.nav-article h1,
+.intro-article h3 {
+  font-family: Alegra, Arial, Helvetica, sans-serif;
+}
+
+.nav-article h1 {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 39.6px;
+  font-size: 2, 25rem;
+}
+
+.intro-article h2 {
+  font-family: Nixie, Arial, Helvetica, sans-serif;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+}
+
+.intro-article h3 {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+
+.intro-article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 7rem;
+  height: 45rem;
 }

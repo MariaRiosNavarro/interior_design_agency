@@ -8,6 +8,11 @@
   src: url("/assets/fonts/Nixie_One/NixieOne-Regular.ttf");
 }
 
+@font-face {
+  font-family: Alegra-Sans;
+  src: url("/assets/fonts/Alegreya_Sans/AlegreyaSans-Regular.ttf");
+}
+
 *,
 *::before,
 *::after {
@@ -90,5 +95,75 @@ a {
   align-items: center;
   justify-content: center;
   padding-bottom: 7rem;
+
   height: 45rem;
+  text-align: center;
+}
+
+/* works  and  blog */
+
+.works,
+.blog {
+  padding: 8.5rem 3.75rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.works-header,
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+  height: 4.5rem;
+  margin-bottom: 3.7rem;
+}
+
+.heading-container-works h2,
+.heading-container-blog h2 {
+  font-family: Alegra-Sans, Arial, Helvetica, sans-serif;
+  font-size: 2, 25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 39.6px;
+}
+
+.heading-container-works p,
+.heading-container-blog p {
+  font-family: Helvetica Neue;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.btn-view-all {
+  color: #3a4f52;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  background-color: transparent;
+  border: 1px solid #3a4f52;
+  padding: 0 2rem;
+}
+
+/* works */
+
+.works-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.8rem;
+}
+
+.works-item {
+  position: relative;
+  overflow: hidden;
+  max-height: 14rem;
+}
+
+.works-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

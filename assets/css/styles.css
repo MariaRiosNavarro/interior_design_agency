@@ -167,3 +167,89 @@ a {
   height: 100%;
   object-fit: cover;
 }
+
+/* services */
+
+.heading-container-services {
+  height: 4.6rem;
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin-bottom: 3.75rem;
+  text-align: center;
+}
+
+.heading-container-services h2 {
+  font-family: Alegra-Sans, Arial, Helvetica, sans-serif;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 39.6px;
+}
+
+.heading-container-services h3 {
+  font-family: Helvetica Neue;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.services {
+  height: 34rem;
+  background: url("/assets/img/ourservices/yellowchair.png") no-repeat center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 8.5rem;
+  padding-right: 8.5rem;
+  text-align: center;
+  color: white;
+}
+
+.shadow-article {
+  height: 23rem;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.services-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  height: 3.75rem;
+  width: 3.75rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  column-gap: 1.8rem;
+  row-gap: 1.2rem;
+  align-items: center;
+  max-width: 22rem;
+}
+
+.card h4 {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: Alegra-Sans, Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 33px;
+}
+
+.card p {
+  color: #fff;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}

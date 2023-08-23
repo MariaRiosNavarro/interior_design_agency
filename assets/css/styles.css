@@ -322,3 +322,47 @@ a {
   line-height: 20px;
 }
 
+/* paralax-quote */
+
+.paralax-quote {
+  height: 34rem;
+  background: url("/assets/img/quoteparalax/quote.png") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5rem 8.4rem;
+  padding: 1rem 2.5rem;
+}
+
+.quote p {
+  color: #fff;
+  text-align: center;
+  font-family: Alegra-Sans, Arial, sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 39.6px;
+}
+
+.quote button {
+  color: #fff;
+  text-align: center;
+  font-family: Helvetica, Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0.8rem 1rem;
+  background-color: transparent;
+  margin-top: 3rem;
+  border: 1px solid white;
+}

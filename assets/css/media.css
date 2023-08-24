@@ -111,6 +111,7 @@
 
   .paralax-quote {
     height: 41rem;
+    background-attachment: scroll;
   }
 
   .quote {

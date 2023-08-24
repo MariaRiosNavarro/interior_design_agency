@@ -114,7 +114,7 @@
   }
 
   .quote {
-    height: 30rem;
+    height: 31rem;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -126,5 +126,13 @@
   .quote button {
     margin-top: 0;
     margin-bottom: 1rem;
+  }
+
+  /*!testimonial */
+  .testimonial {
+    height: 83rem;
+  }
+  .testimonials-container {
+    flex-direction: column;
   }
 }

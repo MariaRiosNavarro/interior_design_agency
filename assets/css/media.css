@@ -8,7 +8,7 @@
     height: 28rem;
   }
   .nav-article {
-    justify-content: space-around;
+    padding: 0 3rem;
   }
   .intro-article {
     padding-top: 7rem;
@@ -52,7 +52,7 @@
   }
   .heading-container-works p,
   .heading-container-blog p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     width: 10rem;
   }
 

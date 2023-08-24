@@ -150,4 +150,22 @@
     padding-left: 3rem;
     padding-right: 3rem;
   }
+  /* !contact */
+  .contact {
+    height: 30rem;
+  }
+  .contact-article {
+    width: 100%;
+  }
+
+  .contact-article form {
+    width: 15rem;
+  }
+  /* !footer */
+  footer {
+    height: 4rem;
+  }
+  footer p {
+    padding-left: 3.5rem;
+  }
 }

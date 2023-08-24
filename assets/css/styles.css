@@ -1,16 +1,16 @@
 @font-face {
   font-family: Alegra;
-  src: url("./assets/fonts/Alegreya_SC/AlegreyaSC-Regular.ttf");
+  src: url("../fonts/Alegreya_SC/AlegreyaSC-Regular.ttf");
 }
 
 @font-face {
   font-family: Nixie;
-  src: url("./assets/fonts/Nixie_One/NixieOne-Regular.ttf");
+  src: url("../fonts/Nixie_One/NixieOne-Regular.ttf");
 }
 
 @font-face {
   font-family: Alegra-Sans;
-  src: url("./assets/fonts/Alegreya_Sans/AlegreyaSans-Regular.ttf");
+  src: url("../fonts/Alegreya_Sans/AlegreyaSans-Regular.ttf");
 }
 
 *,

@@ -203,6 +203,33 @@ a {
   opacity: 1;
 }
 
+/* hover button */
+
+.works-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 3;
+  background-color: transparent;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.works-item:hover .works-btn {
+  display: block;
+  z-index: 2;
+}
+
+.works-btn:hover {
+  background-color: white;
+  color: rgba(2, 56, 58, 1);
+}
+
 /* services */
 
 .heading-container-services {

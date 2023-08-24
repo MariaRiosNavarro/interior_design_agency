@@ -70,6 +70,10 @@ a {
   font-family: Alegra, Arial, Helvetica, sans-serif;
 }
 
+.intro-article h3 {
+  font-variant: uppercase;
+}
+
 .nav-article h1 {
   font-style: normal;
   font-weight: 500;

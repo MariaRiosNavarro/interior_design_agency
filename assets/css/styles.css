@@ -23,6 +23,7 @@
 
 html {
   font-size: 62, 5%;
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -165,7 +166,7 @@ a {
   position: relative;
   overflow: hidden;
   max-height: 14rem;
-  transition: transform 0.5s cubic-bezier(0.2, 0.9, 0.3, 1), filter 0.3s;
+  transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
 }
 
 .works-img {

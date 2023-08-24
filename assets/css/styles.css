@@ -32,7 +32,7 @@ a {
   text-decoration: none !important;
 }
 
-/* HEADER */
+/* !HEADER */
 
 .main-header {
   background: url("../img/header/headerfoto.png") no-repeat center;
@@ -100,7 +100,7 @@ a {
   text-align: center;
 }
 
-/* works  and  blog */
+/* !works  and  blog */
 
 .works,
 .blog {
@@ -152,7 +152,7 @@ a {
   color: white;
 }
 
-/* works */
+/* !works */
 
 .works-list {
   width: 100%;
@@ -174,7 +174,7 @@ a {
   object-fit: cover;
 }
 
-/* works-hover */
+/* ?works-hover */
 
 .works-item::before {
   content: "";
@@ -183,12 +183,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(
-    2,
-    56,
-    58,
-    0.7
-  ); /* Anpassung der Farbe und Transparenz */
+  background-color: rgba(2, 56, 58, 0.7);
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
   z-index: 1;
@@ -203,7 +198,7 @@ a {
   opacity: 1;
 }
 
-/* hover button */
+/* ?hover button */
 
 .works-btn {
   position: absolute;
@@ -230,7 +225,7 @@ a {
   color: rgba(2, 56, 58, 1);
 }
 
-/* services */
+/* !services */
 
 .heading-container-services {
   height: 4.6rem;
@@ -318,7 +313,7 @@ a {
   line-height: 20px;
 }
 
-/* blog */
+/* !blog */
 
 .blog-container {
   height: 34rem;
@@ -386,7 +381,7 @@ a {
   line-height: 20px;
 }
 
-/* paralax-quote */
+/* !paralax-quote */
 
 .paralax-quote {
   height: 34rem;
@@ -431,7 +426,7 @@ a {
   border: 1px solid white;
 }
 
-/* testimonials */
+/* !testimonials */
 
 .testimonials {
   height: 38rem;
@@ -492,7 +487,7 @@ a {
   padding-bottom: 1.5rem;
 }
 
-/* contact */
+/* !contact */
 
 .contact {
   height: 30rem;
@@ -574,7 +569,7 @@ form button {
   width: 5.5rem;
 }
 
-/* footer */
+/* !footer */
 
 footer {
   height: 8.75rem;

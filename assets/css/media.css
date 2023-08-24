@@ -24,8 +24,8 @@
 
   /* !works */
   .works {
-    height: 105rem;
     padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
   }
   .works-list {
     grid-template-columns: 1fr;
@@ -48,5 +48,37 @@
   }
   .heading-container-works p {
     font-size: 0.7rem;
+  }
+
+  /* !works image */
+
+  .works-img {
+    height: 12rem;
+  }
+
+  .works-item::before {
+    opacity: 1;
+  }
+
+  .works-btn {
+    display: block;
+  }
+  /* !services */
+
+  .services {
+    height: 60rem;
+    padding: 6rem 0;
+  }
+  .services-container {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+  .services .shadow-article {
+    height: 50rem;
+    width: 100%;
+  }
+
+  .heading-services {
+    margin-bottom: 2rem;
   }
 }

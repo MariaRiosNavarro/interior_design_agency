@@ -1,0 +1,171 @@
+/* @media screen and (max-width: 768px) {
+  } */
+
+@media screen and (max-width: 576px) {
+  /* !header */
+
+  .main-header {
+    height: 28rem;
+  }
+  .nav-article {
+    padding: 0 3rem;
+  }
+  .intro-article {
+    padding-top: 7rem;
+    height: 5rem;
+  }
+
+  .intro-article h2 {
+    font-size: 2rem;
+  }
+  .intro-article h3 {
+    font-size: 1rem;
+  }
+
+  /* !works & blogs */
+  .works,
+  .blog {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  .works-list {
+    grid-template-columns: 1fr;
+  }
+  .works-header,
+  .blog-header {
+    height: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.3rem;
+  }
+
+  .btn-view-all {
+    font-size: 0.8rem;
+    padding: 0.2rem 1rem;
+    width: 3.8rem;
+  }
+
+  .heading-container-works h2,
+  .heading-container-blog h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .heading-container-works p,
+  .heading-container-blog p {
+    font-size: 0.9rem;
+    width: 10rem;
+  }
+
+  /* !works image */
+
+  .works-img {
+    height: 12rem;
+  }
+
+  .works-item::before {
+    opacity: 1;
+  }
+
+  .works-btn {
+    display: block;
+  }
+  /* !services */
+
+  .services {
+    height: 63rem;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    padding: 0 2.5rem;
+  }
+  .services .shadow-article {
+    padding-top: 0;
+    margin-top: 0;
+    height: 55rem;
+  }
+
+  .heading-services {
+    margin-bottom: 2rem;
+  }
+
+  /* !blog */
+  .blog {
+    height: 117rem;
+  }
+
+  .blog-container {
+    flex-direction: column;
+  }
+  .blog-card {
+    margin-bottom: 2rem;
+  }
+  /* !paralax */
+
+  .paralax-quote {
+    height: 41rem;
+  }
+
+  .quote {
+    height: 31rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .quote p {
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+  }
+  .quote button {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  /*!testimonial */
+  .testimonials {
+    height: 79rem;
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .heading-container-services {
+    padding-top: 1rem;
+  }
+  .heading-container-services h2 {
+    padding-bottom: 0.5rem;
+  }
+
+  .testimonials-container {
+    padding-top: 2rem;
+    flex-direction: column;
+  }
+  .testimonials-card {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  /* !contact */
+  .contact {
+    height: 30rem;
+  }
+  .contact-article {
+    width: 100%;
+  }
+
+  .contact-article form {
+    width: 15rem;
+  }
+  /* !footer */
+  footer {
+    height: 4rem;
+  }
+  footer p {
+    padding-left: 3.5rem;
+  }
+}

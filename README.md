@@ -1,4 +1,4 @@
-## Desktop First (Not yet responsive)
+## Desktop & Mobile Version
 
 # [Deployment here](https://mariariosnavarro.github.io/interior_design_agency/)
 

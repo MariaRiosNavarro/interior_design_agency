@@ -61,6 +61,7 @@ a {
 .nav-article {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 6rem;
   padding: 1.5rem;
 }
@@ -101,7 +102,6 @@ a {
   align-items: center;
   justify-content: center;
   padding-bottom: 7rem;
-
   height: 45rem;
   text-align: center;
 }
@@ -126,7 +126,7 @@ a {
 .heading-container-works h2,
 .heading-container-blog h2 {
   font-family: Alegra-Sans, Arial, Helvetica, sans-serif;
-  font-size: 2, 25rem;
+  font-size: 2.25rem;
   font-style: normal;
   font-weight: 500;
   line-height: 39.6px;

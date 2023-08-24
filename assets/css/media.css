@@ -107,14 +107,24 @@
   .blog-card {
     margin-bottom: 2rem;
   }
-  /* paralax */
+  /* !paralax */
 
   .paralax-quote {
     height: 41rem;
   }
 
-  .paralax-quote .shadow-article {
+  .quote {
     height: 30rem;
     width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .quote p {
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+  }
+  .quote button {
+    margin-top: 0;
+    margin-bottom: 1rem;
   }
 }

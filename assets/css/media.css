@@ -129,10 +129,25 @@
   }
 
   /*!testimonial */
-  .testimonial {
-    height: 83rem;
+  .testimonials {
+    height: 79rem;
+    margin: 0;
+    padding: 1rem;
   }
+
+  .heading-container-services {
+    padding-top: 1rem;
+  }
+  .heading-container-services h2 {
+    padding-bottom: 0.5rem;
+  }
+
   .testimonials-container {
+    padding-top: 2rem;
     flex-direction: column;
+  }
+  .testimonials-card {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 }
